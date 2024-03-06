@@ -1,95 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="/styles.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <link rel="stylesheet" href="/styles.css" />
+    <title>Frontend Mentor | FAQ accordion</title>
 
-  <title>Frontend Mentor | FAQ accordion</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-</head>
+  <body>
+    <main class="main">
+      <h1 class="mainTitle">FAQs</h1>
 
-<body>
-  <main class="main">
-    <h1 class="mainTitle">FAQs</h1>
+      <div class="questionContainer">
+        <h3 class="questionTitle">
+          What is Frontend Mentor, and how will it help me?
 
-    <div class="questionContainer">
-      <h3 class="questionTitle">
-        What is Frontend Mentor, and how will it help me?
+          <div class="openCloseIconContainer">
+            <span class="material-symbols-outlined addIcon"> add </span>
+            <span class="material-symbols-outlined removeIcon hide">
+              remove
+            </span>
+          </div>
+        </h3>
+        <p class="answer hide">
+          Frontend Mentor offers realistic coding challenges to help developers
+          improve their frontend coding skills with projects in HTML, CSS, and
+          JavaScript. It's suitable for all levels and ideal for portfolio
+          building.
+        </p>
+      </div>
 
-        <div class="openCloseIconContainer">
-          <span class="material-symbols-outlined addIcon"> add </span>
-          <span class="material-symbols-outlined removeIcon hide"> remove </span>
-        </div>
-      </h3>
-      <p class="answer hide">
-        Frontend Mentor offers realistic coding challenges to help developers
-        improve their frontend coding skills with projects in HTML, CSS, and
-        JavaScript. It's suitable for all levels and ideal for portfolio
-        building.
-      </p>
-    </div>
+      <div class="questionContainer">
+        <h3 class="questionTitle">
+          Is Frontend Mentor free?
+          <div class="openCloseIconContainer">
+            <span class="material-symbols-outlined addIcon"> add </span>
+            <span class="material-symbols-outlined removeIcon hide">
+              remove
+            </span>
+          </div>
+        </h3>
+        <p class="answer hide">
+          Yes, Frontend Mentor offers both free and premium coding challenges,
+          with the free option providing access to a range of projects suitable
+          for all skill levels.
+        </p>
+      </div>
 
-    <div class="questionContainer">
-      <h3 class="questionTitle">
-        Is Frontend Mentor free?
-        <div class="openCloseIconContainer">
-          <span class="material-symbols-outlined addIcon"> add </span>
-          <span class="material-symbols-outlined removeIcon hide"> remove </span>
-        </div>
-      </h3>
-      <p class="answer hide">
-        Yes, Frontend Mentor offers both free and premium coding challenges,
-        with the free option providing access to a range of projects suitable
-        for all skill levels.
-      </p>
-    </div>
+      <div class="questionContainer">
+        <h3 class="questionTitle">
+          Can I use Frontend Mentor projects in my portfolio?
+          <div class="openCloseIconContainer">
+            <span class="material-symbols-outlined addIcon"> add </span>
+            <span class="material-symbols-outlined removeIcon hide">
+              remove
+            </span>
+          </div>
+        </h3>
+        <p class="answer hide">
+          Yes, you can use projects completed on Frontend Mentor in your
+          portfolio. It's an excellent way to showcase your skills to potential
+          employers!
+        </p>
+      </div>
 
-    <div class="questionContainer">
-      <h3 class="questionTitle">
-        Can I use Frontend Mentor projects in my portfolio?
-        <div class="openCloseIconContainer">
-          <span class="material-symbols-outlined addIcon"> add </span>
-          <span class="material-symbols-outlined removeIcon hide"> remove </span>
-        </div>
-      </h3>
-      <p class="answer hide">
-        Yes, you can use projects completed on Frontend Mentor in your
-        portfolio. It's an excellent way to showcase your skills to potential
-        employers!
-      </p>
-    </div>
+      <div class="questionContainer">
+        <h3 class="questionTitle">
+          How can I get help if I'm stuck on a Frontend Mentor challenge?
+          <div class="openCloseIconContainer">
+            <span class="material-symbols-outlined addIcon"> add </span>
+            <span class="material-symbols-outlined removeIcon hide">
+              remove
+            </span>
+          </div>
+        </h3>
 
-    <div class="questionContainer">
-      <h3 class="questionTitle">
-        How can I get help if I'm stuck on a Frontend Mentor challenge?
-        <div class="openCloseIconContainer">
-          <span class="material-symbols-outlined addIcon"> add </span>
-          <span class="material-symbols-outlined removeIcon hide"> remove </span>
-        </div>
-      </h3>
+        <p class="answer hide">
+          The best place to get help is inside Frontend Mentor's Discord
+          community. There's a help channel where you can ask questions and seek
+          support from other community members.!
+        </p>
+      </div>
+    </main>
 
-      <p class="answer hide">
-        The best place to get help is inside Frontend Mentor's Discord
-        community. There's a help channel where you can ask questions and seek
-        support from other community members.!
-      </p>
-    </div>
-  </main>
-
-  <footer class="attribution">
-    Challenge by
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
-      href="#">Hency Lara.</a>
-  </footer>
-  <script src="/app.js"></script>
-</body>
-
+    <footer class="footer attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Hency Lara.</a>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
 </html>
